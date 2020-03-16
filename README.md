@@ -1,7 +1,7 @@
 # PhysUnits
 A Fortran 90/95 library that adds support for physical dimensions and units in scientific programs
 
-The software package described on this page is an outgrowth of a paper that we published in the journal  Software – Practice and Experience.   Legacy Fortran-77 code can be easily converted to utilize the system with only minor recoding.
+The software package described on this page is an outgrowth of a paper that we published in the journal  Software – Practice and Experience (https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.401).   Legacy Fortran-77 code can be easily converted to utilize the system with only minor recoding.
 
 The module is most likely to be useful in scientific programs, such as geophysical models and satellite retrieval algorithms, that are forced to deal with heterogeneous systems of units and/or complex formulas involving physically dimensioned constants and variables. For example, some old canned cloud physics subroutines in our own software library expect water densities in g/cm3; others expect kg/m3 . Many similar examples exist for drop sizes, fall speeds, scattering cross-sections, extinction coefficients, and the like.
 
